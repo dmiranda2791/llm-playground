@@ -4,11 +4,12 @@ A collection of Jupyter notebooks demonstrating implementations of Large Languag
 
 ## Overview
 
-This repository contains three notebooks that explore different aspects of LLM application development:
+This repository contains four notebooks that explore different aspects of LLM application development:
 
 1. **Agent.ipynb**: Implements a basic agent that can perform web searches using the Tavily API and maintain conversation state.
 2. **Chatbot.ipynb**: Demonstrates building a chatbot with conversation memory and custom prompt templates.
 3. **Simple LLM Application.ipynb**: Covers fundamental LLM interactions and streaming responses.
+4. **Semantic Search Engine.ipynb**: Implements a semantic search system using vector embeddings and document retrieval, with PDF processing and advanced search capabilities.
 
 ## Technical Stack
 
@@ -47,6 +48,15 @@ This repository contains three notebooks that explore different aspects of LLM a
 - LangSmith integration for tracing and monitoring
 - Conversation history tracking
 - Performance metrics
+
+### Semantic Search Features
+
+- PDF document processing and chunking
+- Vector embeddings using OpenAI's text-embedding-3-large model
+- In-memory vector store implementation
+- Multiple search methods (basic, scored, vector-based)
+- Batch processing and async search capabilities
+- Document metadata preservation
 
 ## Setup
 
